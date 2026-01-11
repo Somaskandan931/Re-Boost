@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+pypdf  # Changed from PyPDF2
+python-docx
+openai
+python-dotenv
+streamlit
+requests

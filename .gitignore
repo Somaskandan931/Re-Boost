@@ -1,0 +1,375 @@
+# =====================================================
+# AI Resume Booster - Git Ignore File
+# =====================================================
+
+# =====================================================
+# Environment & Secrets
+# =====================================================
+.env
+.env.local
+.env.*.local
+*.env
+.envrc
+
+# API Keys and Secrets
+secrets/
+*.key
+*.pem
+*.p12
+config/secrets.json
+
+# =====================================================
+# Python
+# =====================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# =====================================================
+# Streamlit
+# =====================================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =====================================================
+# IDEs & Editors
+# =====================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# =====================================================
+# Operating System Files
+# =====================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# =====================================================
+# Application Specific
+# =====================================================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+simple_db/*.json
+!simple_db/.gitkeep
+
+# Upload directories
+uploads/
+temp_uploads/
+certificates/
+uploaded_resumes/
+
+# Generated LaTeX files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
+*.tex
+generated_resumes/
+latex_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Cache directories
+.cache/
+cache/
+
+# Session data
+sessions/
+*.session
+
+# =====================================================
+# LaTeX
+# =====================================================
+
+# Core latex/pdflatex auxiliary files
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Build tool directories
+latex.out/
+
+# =====================================================
+# Logs & Debug
+# =====================================================
+
+# Log files
+*.log
+logs/
+*.log.*
+debug.log
+error.log
+
+# Debug files
+debug/
+.debug/
+
+# =====================================================
+# Testing
+# =====================================================
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Test outputs
+test_output/
+test_results/
+
+# =====================================================
+# Documentation
+# =====================================================
+
+# Generated docs
+docs/_build/
+docs/.doctrees/
+
+# =====================================================
+# Node.js (if frontend components added)
+# =====================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# =====================================================
+# Backup & Archive Files
+# =====================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+backups/
+archive/
+
+# =====================================================
+# Miscellaneous
+# =====================================================
+
+# Large data files
+data/
+datasets/
+
+# Model files (if ML models stored)
+models/
+*.pkl
+*.h5
+*.model
+
+# API response caches
+api_cache/
+
+# User data (if stored locally)
+user_data/
+resumes/
