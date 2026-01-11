@@ -12,7 +12,7 @@ A professional resume builder that generates high-quality LaTeX resumes with sup
 - **Academic CV**: Traditional academic format
 - **Minimalist**: Clean and simple design
 
-### 📄 Comprehensive Resume Sections
+### Comprehensive Resume Sections
 - Personal Information with multiple contact methods
 - Education with GPA and achievements
 - Work Experience with detailed accomplishments
@@ -133,12 +133,12 @@ Add your professional experience with:
 
 **Writing Great Bullet Points**:
 ```
-✅ GOOD:
+GOOD:
 - Led team of 8 engineers to deliver microservices platform 3 weeks ahead of schedule
 - Increased API performance by 60% through caching and optimization, serving 2M+ daily users
 - Reduced infrastructure costs by $150K annually through AWS optimization
 
-❌ AVOID:
+AVOID:
 - Worked on various projects
 - Responsible for backend development
 - Helped with testing
@@ -213,7 +213,7 @@ PostgreSQL, MongoDB, Git, CI/CD, Machine Learning, TensorFlow
 - **Style**: Traditional academic format
 - **Highlights**: Publications, research experience
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 resume-booster/
@@ -233,7 +233,7 @@ resume-booster/
     └── templates.json             # Template database
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Main Endpoints
 
@@ -247,7 +247,7 @@ resume-booster/
 
 Full API documentation: http://localhost:8000/docs
 
-## 💡 Best Practices
+## Best Practices
 
 ### Resume Content
 
@@ -303,7 +303,7 @@ Full API documentation: http://localhost:8000/docs
    - Include credential IDs
    - Upload certificates when impressive
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Backend Not Starting
 
@@ -356,14 +356,14 @@ Common issues:
 - **Special characters**: Automatically escaped in code
 - **Long URLs**: May need manual line breaks
 
-## 🔐 Privacy & Security
+## Privacy & Security
 
 - **Local Processing**: All resume data stays on your machine
 - **No Cloud Storage**: Information is not stored externally
 - **Certificate Files**: Stored temporarily during session only
 - **API Usage**: OpenAI API only used for extraction/suggestions (optional)
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Students & Recent Graduates
 - Use Academic or Modern Deedy template
@@ -385,6 +385,4 @@ Common issues:
 - Focus on transferable skills
 - Highlight relevant projects and certifications
 
-**Transform your resume into a professional LaTeX masterpiece! 🎉**
-
-Created with ❤️ for job seekers worldwide
+**Transform your resume into a professional LaTeX masterpiece!**
