@@ -1,10 +1,10 @@
-# 📝 AI Resume Booster - LaTeX Edition
+# AI Resume Booster - LaTeX Edition
 
 A professional resume builder that generates high-quality LaTeX resumes with support for certificates, project links, GitHub integration, and multiple professional templates inspired by Overleaf.
 
-## ✨ Key Features
+## Key Features
 
-### 🎨 Professional LaTeX Templates
+### Professional LaTeX Templates
 - **Modern Deedy**: Single-column modern design
 - **Awesome CV**: Professional two-column layout
 - **Tech Resume**: Developer-focused with emphasis on projects
@@ -13,25 +13,25 @@ A professional resume builder that generates high-quality LaTeX resumes with sup
 - **Minimalist**: Clean and simple design
 
 ### 📄 Comprehensive Resume Sections
-- ✅ Personal Information with multiple contact methods
-- ✅ Education with GPA and achievements
-- ✅ Work Experience with detailed accomplishments
-- ✅ Projects with GitHub and live demo links
-- ✅ Technical Skills categorization
-- ✅ Certifications with verification URLs
-- ✅ Certificate file uploads (PDF/Images)
-- ✅ Portfolio and social media links
+- Personal Information with multiple contact methods
+- Education with GPA and achievements
+- Work Experience with detailed accomplishments
+- Projects with GitHub and live demo links
+- Technical Skills categorization
+- Certifications with verification URLs
+- Certificate file uploads (PDF/Images)
+- Portfolio and social media links
 
-### 🚀 Advanced Features
-- **📤 Certificate Upload**: Upload and attach certification files
-- **🔗 GitHub Integration**: Add project repositories and profiles
-- **🌐 Live Demo Links**: Include project demonstrations
-- **📥 Resume Import**: Upload existing resumes (PDF/DOCX/TXT) for conversion
-- **🤖 AI-Powered Extraction**: Automatically extract info from uploaded resumes
-- **📄 PDF Compilation**: Compile LaTeX to PDF directly (requires pdflatex)
-- **💾 Download LaTeX Source**: Get `.tex` file for Overleaf editing
+### Advanced Features
+- **Certificate Upload**: Upload and attach certification files
+- **GitHub Integration**: Add project repositories and profiles
+- **Live Demo Links**: Include project demonstrations
+- **Resume Import**: Upload existing resumes (PDF/DOCX/TXT) for conversion
+- **AI-Powered Extraction**: Automatically extract info from uploaded resumes
+- **PDF Compilation**: Compile LaTeX to PDF directly (requires pdflatex)
+- **Download LaTeX Source**: Get `.tex` file for Overleaf editing
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -83,7 +83,7 @@ streamlit run app.py
 - Frontend UI: http://localhost:8501
 - API Documentation: http://localhost:8000/docs
 
-## 📖 Complete Usage Guide
+## Complete Usage Guide
 
 ### 1. Personal Information Tab
 
@@ -95,7 +95,7 @@ Enter your basic details:
 - Portfolio/Personal website
 - Professional summary
 
-**💡 Tip**: Make sure to include at least your email and one professional link (LinkedIn or GitHub).
+**Tip**: Make sure to include at least your email and one professional link (LinkedIn or GitHub).
 
 ### 2. Education & Certifications Tab
 
@@ -131,7 +131,7 @@ Add your professional experience with:
 - Start and end dates (use "Present" for current roles)
 - Key achievements and responsibilities
 
-**💡 Writing Great Bullet Points**:
+**Writing Great Bullet Points**:
 ```
 ✅ GOOD:
 - Led team of 8 engineers to deliver microservices platform 3 weeks ahead of schedule
@@ -148,8 +148,8 @@ Add your professional experience with:
 
 #### Add Projects:
 - Project name
-- **GitHub repository URL** ⭐
-- **Live demo URL** 🌐
+- **GitHub repository URL** 
+- **Live demo URL** 
 - Technologies used
 - Detailed description
 
@@ -174,24 +174,24 @@ PostgreSQL, MongoDB, Git, CI/CD, Machine Learning, TensorFlow
 
 1. **Select your preferred template** from the sidebar
 2. **Choose your industry** (affects formatting emphasis)
-3. **Click "🚀 Generate LaTeX Code"**
+3. **Click "Generate LaTeX Code"**
 4. **Review the generated code**
 5. **Download options**:
-   - 📥 Download `.tex` file for Overleaf
-   - 📄 Compile to PDF (if pdflatex installed)
-   - 🔗 Open in Overleaf
+   - Download `.tex` file for Overleaf
+   - Compile to PDF (if pdflatex installed)
+   - Open in Overleaf
 
 ### 6. Upload Resume Tab
 
 **Convert existing resumes to LaTeX**:
 
 1. Upload your current resume (PDF, DOCX, or TXT)
-2. Click "🔍 Extract & Convert to LaTeX"
+2. Click "Extract & Convert to LaTeX"
 3. AI extracts information automatically
 4. Review and edit extracted data in other tabs
 5. Generate LaTeX code
 
-## 🎨 Template Showcase
+## Template Showcase
 
 ### Modern Deedy
 - **Best for**: Software Engineers, Designers
